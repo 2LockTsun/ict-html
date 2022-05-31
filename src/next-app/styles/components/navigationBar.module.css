@@ -1,0 +1,26 @@
+.container {
+    height: 3em;
+    align-items: center;
+    background-color: aqua;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.homeButton {
+    align-items: center;
+    flex-direction: row;
+}
+
+.navBar {
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.button {
+    align-content: center;
+    justify-content: center;
+    margin: 1em;
+    flex-direction: row;
+}
