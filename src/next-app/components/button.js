@@ -1,8 +1,3 @@
-
-export default function Button({content}) {
-    return (
-        <div>
-            content
-        </div>
-    )
+export default function Button({ children }) {
+	return <div>{children}</div>;
 }
