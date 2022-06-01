@@ -5,7 +5,7 @@ export default function NavigationBar() {
 	return (
 		<div className={styles.navBar}>
 			<Link href={'/'} >
-				<a>Home</a>
+				<a><img src='https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg'/></a>
 			</Link>
 			<Link href={'/about'}>
 				<a>About</a>
