@@ -1,25 +1,28 @@
-.container {
+.navBar {
     display: flex;
-    flex: 1;
-    height: 3em;
-    /* align-items: center; */
+    height: 5em;
+    align-items: center;
     background-color: aqua;
-    /* align-content: center; */
-    /* justify-content: center; */
-    flex-direction: row;
+    justify-content: center;
+    
 }
 
-.homeButton {
-    background-color: antiquewhite;
-    /* align-items: center; */
-    /* flex-direction: row; */
-}
-
-.button {
-    flex: 1;
-    /* align-content: center; */
-    /* justify-content: center; */
-    padding: 1em;
+.navBar a {
     margin: 1em;
-    /* flex-direction: row; */
+    padding: 1.5em;
+    width: 6em;
+    height: 2em;
+    border: 3px solid black;
+    border-radius: 1em;
+    text-align: center;
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-color: yellow;
+}
+
+.navBar a:hover,
+.navBar a:focus,
+.navBar a:active {
+  color: #0070f3;
+  border-color: #0070f3;
 }

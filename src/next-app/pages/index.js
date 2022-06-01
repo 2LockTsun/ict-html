@@ -20,13 +20,15 @@ export default function Home() {
 					<Link href={'/'}>GM</Link>
 				</div>
 				<div className={styles.grid}>
-					<a className={styles.card}>Support</a>
+					<Link href={'/support'}><a className={styles.card}><h2>Support</h2></a></Link>
+					{/* <a className={styles.card}>Support</a> */}
 				</div>
 			</main>
 
 			<footer className={styles.footer}>
-				Copyrights belongs to
-				<a href='https://github.com/2LockTsun/ict-html'>2_Lock_Tsun</a>
+                Copyrights belongs to :
+                <span ><a href='https://github.com/2LockTsun/ict-html'>2_Lock_Tsun</a></span>
+				
 			</footer>
 		</div>
 	);
