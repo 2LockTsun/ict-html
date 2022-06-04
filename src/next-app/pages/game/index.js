@@ -1,6 +1,6 @@
 import NavigationBar from "../../components/navigationBar";
-import Footer from "../../components/footer"
-import styles from "../../styles/pages/Game.module.css"
+import Footer from "../../components/footer";
+import Content from "../../components/content";
 
 export default function GamePage() {
     return(

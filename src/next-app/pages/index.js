@@ -15,12 +15,20 @@ export default function Home() {
 			<NavigationBar />
 
 			<main className={styles.main}>
-				<h1>Welcome to my Website!</h1>
+				<h1 className={styles.title}>Welcome to my Website!</h1>
+
+				<p className={styles.description}>This site is about my favourite sports.</p>
 
 				<div className={styles.grid}>
-					<Link href={'/support'}><a className={styles.card}><h2>Support</h2></a></Link>
+					<Link href={'/about'}><a className={styles.card}><h2>Go to Formula1.com →</h2></a></Link>
 				</div>
 			</main>
+
+			<div className={styles.subMain}>
+				<h1 className={styles.title}>
+					反Frameset大聯盟
+				</h1>
+			</div>
 
 			<Footer />
 		</div>

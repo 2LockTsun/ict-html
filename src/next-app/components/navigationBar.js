@@ -1,12 +1,12 @@
 import Link from 'next/link';
 import Image from 'next/image'
-import styles from '../styles/components/navigationBar.module.css';
+import styles from '../styles/components.module.css';
 
 export default function NavigationBar() {
 	return (
 		<div className={styles.navBar}>
 			<Link href={'/'} >
-				<a><Image src='https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg' alt='Background Image'/></a>
+				<a><img src='https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg' alt='Background Image'/></a>
 			</Link>
 			<Link href={'/about'}>
 				<a>About</a>

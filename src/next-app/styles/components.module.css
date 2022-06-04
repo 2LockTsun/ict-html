@@ -1,0 +1,80 @@
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    min-height: 50em;
+}
+
+.contentSideBar {
+    width: 20%;
+    flex-direction: column;
+    /* border-right: 2px solid aliceblue; */
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentMain {
+    width: 80%;
+    padding: 2rem;
+}
+
+.customButton {
+    flex-direction: column;
+    height: 3em;
+    margin: 0.5em;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.customButtonText {
+    color: blue;
+}
+
+.customFooter {
+    display: flex;
+    flex: 1;
+    padding: 2rem 0;
+    /* border-top: 1px solid #eaeaea; */
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #15151e;
+    color: #fff;
+}
+  
+.customFooter a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 0 2em;
+}
+
+.navBar {
+    display: flex;
+    height: 5em;
+    align-items: center;
+    background-color: red;
+    justify-content: center;
+    
+}
+
+.navBar a {
+    margin: 0.5em;
+    width: 8em;
+    height: 1.5em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.navBar a:hover,
+.navBar a:focus,
+.navBar a:active {
+  color: lightgray;
+}

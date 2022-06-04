@@ -1,6 +1,7 @@
 import NavigationBar from "../../components/navigationBar";
-import Footer from "../../components/footer"
-import styles from "../../styles/pages/Support.module.css"
+import Footer from "../../components/footer";
+import styles from "../../styles/pages/Support.module.css";
+import Content from "../../components/content";
 
 export default function SupportPage() {
     return (
