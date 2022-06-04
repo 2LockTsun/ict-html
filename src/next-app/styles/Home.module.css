@@ -5,6 +5,7 @@
 
 .main {
   min-height: 100vh;
+  max-height: 3366px;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -12,7 +13,8 @@
   justify-content: center;
   align-items: center;
   background-image: url('../image/background.jpg');
-  background-size: 100%;
+  background-position: center;
+  background-size: 175%;
 }
 
 .title {
@@ -25,6 +27,7 @@
 .title,
 .description {
   text-align: center;
+  color: #fff;
 }
 
 .description {
@@ -89,6 +92,28 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.subMain h1 {
+  margin: 1em;
+  line-height: 1.15;
+  font-size: 4rem;
+  color: black;
+}
+
+.subMain a {
+  padding: 2rem;
+  line-height: 1.15;
+  font-size: 2em;
+  border: 2px solid black;
+  border-radius: 1em;
+  color: black;
+}
+
+.subMain a:hover,
+.subMain a:active {
+  color: #3558f2;
+  border-color: #3558f2;
 }
 
 @media (max-width: 600px) {

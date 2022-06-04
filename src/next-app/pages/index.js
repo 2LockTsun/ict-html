@@ -20,14 +20,19 @@ export default function Home() {
 				<p className={styles.description}>This site is about my favourite sports.</p>
 
 				<div className={styles.grid}>
-					<Link href={'/about'}><a className={styles.card}><h2>Go to Formula1.com →</h2></a></Link>
+					<Link href={'https://www.formula1.com'}><a className={styles.card}><h2>Go to F1 Official Site →</h2></a></Link>
 				</div>
 			</main>
 
 			<div className={styles.subMain}>
-				<h1 className={styles.title}>
+				<h1>
 					反Frameset大聯盟
 				</h1>
+				<Link href={'/'}>
+					<a>
+						立即加入
+					</a>
+				</Link>
 			</div>
 
 			<Footer />
