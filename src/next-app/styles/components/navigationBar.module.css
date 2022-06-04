@@ -8,18 +8,19 @@
 }
 
 .navBar a {
-    margin: 1em;
-    width: 6em;
+    margin: 0.5em;
+    width: 8em;
     height: 1.5em;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     color: white;
-    /* align-items: center; */
-    /* justify-content: center; */
+    font-weight: bold;
+    font-size: large;
 }
 
 .navBar a:hover,
 .navBar a:focus,
 .navBar a:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: lightgray;
 }

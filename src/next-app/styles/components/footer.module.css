@@ -2,14 +2,17 @@
     display: flex;
     flex: 1;
     padding: 2rem 0;
-    border-top: 1px solid #eaeaea;
-    justify-content: center;
+    /* border-top: 1px solid #eaeaea; */
+    justify-content: flex-end;
     align-items: center;
-  }
+    background-color: #15151e;
+    color: #fff;
+}
   
 .footer a {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+    padding: 0 2em;
 }
