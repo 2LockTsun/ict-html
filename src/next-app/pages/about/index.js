@@ -2,14 +2,14 @@ import NavigationBar from "../../components/navigationBar";
 import Footer from '../../components/footer';
 import Content from "../../components/content";
 import DeveloperPage from './developer';
-import ThisSitePage from "./thisSite";
+import FormulaOnePage from "./formulaOne";
 
 export default function About() {
     return (
         <div id="About">
             <NavigationBar  />
-            <Content components={['This Site', 'Developer']}>
-                <ThisSitePage />
+            <Content components={['Formula One', 'Developer']}>
+                <FormulaOnePage />
                 <DeveloperPage />
             </Content>
             <Footer />

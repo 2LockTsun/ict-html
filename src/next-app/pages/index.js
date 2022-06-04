@@ -28,7 +28,7 @@ export default function Home() {
 				<h1>
 					反Frameset大聯盟
 				</h1>
-				<Link href={'/'}>
+				<Link href={'/troll'}>
 					<a>
 						立即加入
 					</a>

@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.title {
+    border-bottom: 1px solid darkgray;
+}
+
+.title h1 {
+    font-size: 3em;
+}
+
+.content {
+    padding: 1em;
+}
+
+.content p {
+    font-size: 1.5em;
+}
+
+.content h2 a {
+    text-decoration: underline;
+}

@@ -1,1 +1,14 @@
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.title {
+    border-bottom: 1px solid darkgray;
+}
+
+.title h1 {
+    font-size: 3em;
+}

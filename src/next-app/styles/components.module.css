@@ -32,9 +32,10 @@
 .customButtonText {
     color: black;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
+.customButtonText:focus,
 .customButtonText:active {
     color: blue;
 }
