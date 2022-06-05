@@ -7,8 +7,36 @@
 
 .title {
     border-bottom: 1px solid darkgray;
+    margin: 0.5em 0;
 }
 
 .title h1 {
     font-size: 3em;
+}
+
+.whitespace {
+    height: 100000em;
+}
+
+.dc {
+    font-size: 5px;
+}
+
+.blank {
+    width: 50%;
+    height: 1px;
+    border-bottom: 1px solid lightgray;
+    margin: 0.5em 0;
+}
+
+.content {
+    flex-direction: column;
+}
+
+.content a {
+    padding: 1em 0.5em;
+}
+
+.content li {
+    padding: 0.5em;
 }
