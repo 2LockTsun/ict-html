@@ -1,15 +1,38 @@
-.footer {
-    display: flex;
-    flex: 1;
-    padding: 2rem 0;
-    border-top: 1px solid #eaeaea;
-    justify-content: center;
-    align-items: center;
-  }
-  
-.footer a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.Nav {
+  display: flex;
+  height: 3em;
+  background-color: #38383F;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.Nav a {
+  text-align: center;
+  color: #fff;
+  margin: 1em;
+  padding: 0.5em;
+  font-weight: bold;
+}
+
+.Nav a:focus,
+.Nav a:active {
+  border-bottom: 2px solid lightskyblue;
+}
+
+.seasonsContent {
+  height: auto;
+}
+
+.table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -3,14 +3,17 @@ import Footer from "../../components/footer";
 import Content from "../../components/content";
 import F122Page from "./f122";
 import F12021Page from "./f12021";
-import F12020Page from "./f12020";
 import CodeMasterPage from "./codemaster";
-import Header from "../../components/Header";
+import Head from "next/head";
 
 export default function GamePage() {
     return(
         <div>
-            <Header>Game - My favourite sports</Header>
+            <Head>
+                <title>Game - My favourite sports</title>
+			    <meta name='description' content='A website for ICT homework' />
+			    <link rel='icon' href='/favicon.ico' />
+            </Head>
             <NavigationBar />
             <Content components={['Codemaster', 'F1 22', 'F1 2021']}>
                 <CodeMasterPage />

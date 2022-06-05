@@ -3,12 +3,16 @@ import Footer from '../../components/footer';
 import Content from "../../components/content";
 import DeveloperPage from './developer';
 import FormulaOnePage from "./formulaOne";
-import Header from "../../components/Header";
+import Head from "next/head";
 
 export default function About() {
     return (
         <div>
-            <Header>About - My favourite sports</Header>
+            <Head>
+                <title>About - My favourite sports</title>
+			    <meta name='description' content='A website for ICT homework' />
+			    <link rel='icon' href='/favicon.ico' />
+            </Head>
             <NavigationBar  />
             <Content components={['Formula One', 'Developer']}>
                 <FormulaOnePage />

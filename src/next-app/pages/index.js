@@ -1,13 +1,17 @@
-import Header from '../components/Header';
 import Footer from '../components/footer';
 import Link from 'next/link';
 import NavigationBar from '../components/navigationBar';
 import styles from '../styles/Home.module.css';
+import Head from 'next/head';
 
 export default function Home() {
 	return (
 		<div className={styles.container}>
-			<Header>My favourite sports</Header>
+			<Head>
+                <title>My favourite sports</title>
+			    <meta name='description' content='A website for ICT homework' />
+			    <link rel='icon' href='/favicon.ico' />
+            </Head>
 			<NavigationBar />
 
 			<main className={styles.main}>
