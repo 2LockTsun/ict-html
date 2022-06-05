@@ -7,6 +7,7 @@ import SiteMapPage from "./siteMap";
 export default function SupportPage() {
     return (
         <div>
+            <Header>Support - My favourite sports</Header>
             <NavigationBar  />
             <Content components={['Comtact Us', 'Site Map']}>
                 <ContactUsPage />

@@ -6,7 +6,8 @@ import FormulaOnePage from "./formulaOne";
 
 export default function About() {
     return (
-        <div id="About">
+        <div>
+            <Header>About - My favourite sports</Header>
             <NavigationBar  />
             <Content components={['Formula One', 'Developer']}>
                 <FormulaOnePage />
