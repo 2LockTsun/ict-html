@@ -1,7 +1,7 @@
 export default function CreditPage() {
-    return(
-        <div>
-            
-        </div>
-    )
+	return (
+		<div>
+			<h1>Credit</h1>
+		</div>
+	);
 }
