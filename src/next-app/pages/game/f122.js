@@ -2,11 +2,14 @@ import styles from '../../styles/pages/Game.module.css';
 
 export default function F122Page() {
 	return (
-		<div>
+		<div className={styles.container}>
+			<div className={styles.title}>
+				<h1>F1 22</h1>
+			</div>
 			<div className={styles.content}>
 				<iframe
-					width='560'
-					height='315'
+					width='1120'
+					height='630'
 					src='https://www.youtube.com/embed/YgOi41qmlc4'
 					title='YouTube video player'
 					frameBorder='0'

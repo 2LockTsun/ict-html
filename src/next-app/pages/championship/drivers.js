@@ -1,6 +1,7 @@
 import NavigationBar from '../../components/navigationBar';
 import Footer from '../../components/footer';
 import Content from '../../components/content';
+import drivers from './drivers.json';
 import Head from 'next/head';
 
 export default function Drivers() {
@@ -12,7 +13,7 @@ export default function Drivers() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<NavigationBar />
-
+			
 			<Footer />
 		</div>
 	);

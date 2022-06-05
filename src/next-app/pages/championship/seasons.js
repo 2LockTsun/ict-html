@@ -107,7 +107,7 @@ export default function Seasons() {
 						<a onClick={() => setType(1)}>Drivers</a>
 					</Link>
 					<Link href={''}>
-						<a onClick={() => setType(2)}>Drivers</a>
+						<a onClick={() => setType(2)}>Teams</a>
 					</Link>
 				</div>
 				<div className={styles.table}>{table[Season][Type]}</div>

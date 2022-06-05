@@ -27,12 +27,39 @@
   border-bottom: 2px solid lightskyblue;
 }
 
-.seasonsContent {
-  height: auto;
+.content {
+  display: flex;
+  min-height: 89vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.card {
+  display: flex;
+  padding: 2rem;
+  margin: 1em;
+  border: 2.5px solid #000;
+  border-radius: 1em;
+  min-width: 16em;
+  min-height: 8em;
+  text-align: center;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5em;
 }
 
 .table {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  min-height: 81.85vh;
+  padding: 3em;
 }

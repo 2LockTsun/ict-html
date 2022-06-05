@@ -1,7 +1,7 @@
 import NavigationBar from '../../components/navigationBar';
 import Footer from '../../components/footer';
-import Content from '../../components/content';
 import Head from 'next/head';
+import styles from '../../styles/pages/Championship.module.css'
 
 export default function ChampionshipPage() {
 	return (
@@ -13,9 +13,23 @@ export default function ChampionshipPage() {
 			</Head>
 			<NavigationBar />
 			<main>
-				<div>
-					<a href='/championship/seasons'>nothing</a>
-					<a href='/championship/teams'>something</a>
+				<div className={styles.content}>
+					<div className={styles.grid}>
+						<div className={styles.card}>
+							<a href='/championship/seasons'>Seasons</a>
+						</div>
+						<div className={styles.card}>
+							<a href='/championship/teams'>Teams</a>
+						</div>
+					</div>
+					<div className={styles.grid}>
+						<div className={styles.card}>
+							<a href='/championship/drivers'>Drivers</a>
+						</div>
+						<div className={styles.card}>
+							<a href='/championship/tracks'>Tracks</a>
+						</div>
+					</div>
 				</div>
 			</main>
 			<Footer />

@@ -3,7 +3,7 @@ import Footer from '../../components/footer';
 import Head from 'next/head';
 import styles from '../../styles/pages/Championship.module.css';
 import { useState } from 'react';
-import teams from './teams.json';
+import teams from './teams.json'
 import { TableHead, TableRow, TableCell } from '@mui/material';
 import Link from 'next/link';
 
