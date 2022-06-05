@@ -7,10 +7,10 @@ export default function ChampionshipPage() {
 	return (
 		<div>
 			<Head>
-                <title>Championship - My favourite sports</title>
-			    <meta name='description' content='A website for ICT homework' />
-			    <link rel='icon' href='/favicon.ico' />
-            </Head>
+				<title>Championship - My favourite sports</title>
+				<meta name='description' content='A website for ICT homework' />
+				<link rel='icon' href='/favicon.ico' />
+			</Head>
 			<NavigationBar />
 			<main>
 				<div>

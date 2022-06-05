@@ -7,12 +7,12 @@ export default function Drivers() {
 	return (
 		<div>
 			<Head>
-                <title>Drivers - My favourite sports</title>
-			    <meta name='description' content='A website for ICT homework' />
-			    <link rel='icon' href='/favicon.ico' />
-            </Head>
+				<title>Drivers - My favourite sports</title>
+				<meta name='description' content='A website for ICT homework' />
+				<link rel='icon' href='/favicon.ico' />
+			</Head>
 			<NavigationBar />
-			
+
 			<Footer />
 		</div>
 	);

@@ -1,5 +1,5 @@
-import styles from "../../styles/pages/Support.module.css"
-import { TableHead, TableRow, TableCell } from "@mui/material";
+import styles from '../../styles/pages/Support.module.css';
+import { TableHead, TableRow, TableCell } from '@mui/material';
 
 export default function CreditPage() {
 	return (
@@ -11,7 +11,9 @@ export default function CreditPage() {
 				<TableHead>
 					<TableRow>
 						<TableCell>UI Icon</TableCell>
-						<TableCell><a href="https://www.formula1.com">formula1.com</a></TableCell>
+						<TableCell>
+							<a href='https://www.formula1.com'>formula1.com</a>
+						</TableCell>
 					</TableRow>
 				</TableHead>
 			</div>
