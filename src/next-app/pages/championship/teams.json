@@ -1,104 +1,102 @@
-{
-	"teams": [
-		{
-			"name": "Oracle Red Bull Racing",
-			"base": "Milton Keynes, United Kingdom",
-			"teamCheif": "Christian Horner",
-			"techCheif": "Pierre Waché",
-			"chassis": "RB18",
-			"pu": "Red Bull Powertrains",
-			"champ": "4",
-			"avatar": "https://www.formula1.com/content/fom-website/en/teams/Red-Bull-Racing/_jcr_content/logo.img.jpg/1645620474276.jpg"
-		},
-		{
-			"name": "Scuderia Ferrari",
-			"base": "Maranello, Italy",
-			"teamCheif": "Mattia Binotto",
-			"techCheif": "Enrico Cardile / Enrico Gualtieri",
-			"chassis": "F1-75",
-			"pu": "Ferrari",
-			"champ": "16",
-			"avatar": "https://www.formula1.com/content/fom-website/en/teams/Ferrari/_jcr_content/logo.img.jpg/1521797474166.jpg"
-		},
-		{
-			"name": "Mercedes-AMG Petronas F1 Team",
-			"base": "Brackley, United Kingdom",
-			"teamCheif": "Toto Wolff",
-			"techCheif": "Mike Elliott",
-			"chassis": "W13",
-			"pu": "Mercedes",
-			"champ": "8",
-			"avatar": "https://www.formula1.com/content/fom-website/en/teams/Mercedes/_jcr_content/logo.img.jpg/1582638425211.jpg"
-		},
-		{
-			"name": "McLaren F1 Team",
-			"base": "Woking, United Kingdom",
-			"teamCheif": "Andreas Seidl",
-			"techCheif": "James Key",
-			"chassis": "MCL36",
-			"pu": "Mercedes",
-			"champ": "8",
-			"avatar": "https://www.formula1.com/content/fom-website/en/teams/McLaren/_jcr_content/logo.img.jpg/1644831223911.jpg"
-		},
-		{
-			"name": "Alfa Romeo F1 Team ORLEN",
-			"base": "Hinwil, Switzerland",
-			"teamCheif": "Frédéric Vasseur",
-			"techCheif": "Jan Monchaux",
-			"chassis": "C42",
-			"pu": "Ferrari",
-			"champ": "0",
-			"avatar": "https://www.formula1.com/content/fom-website/en/teams/Alfa-Romeo-Racing/_jcr_content/logo.img.png/1643019381208.png"
-		},
-		{
-			"name": "BWT Alpine F1 Team",
-			"base": "Enstone, United Kingdom",
-			"teamCheif": "Otmar Szafnauer",
-			"techCheif": "Pat Fry",
-			"chassis": "A522",
-			"pu": "Renault",
-			"champ": "2",
-			"avatar": "https://www.formula1.com/content/fom-website/en/teams/Alpine/_jcr_content/logo.img.jpg/1645620884650.jpg"
-		},
-		{
-			"name": "Scuderia AlphaTauri",
-			"base": "Faenza, Italy",
-			"teamCheif": "Franz Tost",
-			"techCheif": "Jody Egginton",
-			"chassis": "AT03",
-			"pu": "Red Bull Powertrains",
-			"champ": "0",
-			"avatar": "https://www.formula1.com/content/fom-website/en/teams/AlphaTauri/_jcr_content/logo.img.jpg/1582650557134.jpg"
-		},
-		{
-			"name": "Haas F1 Team",
-			"base": "Kannapolis, United States",
-			"teamCheif": "Guenther Steiner",
-			"techCheif": "Simone Resta",
-			"chassis": "VF-22",
-			"pu": "Ferrari",
-			"champ": "0",
-			"avatar": "https://www.formula1.com/content/fom-website/en/teams/Haas-F1-Team/_jcr_content/logo.img.jpg/1646210673011.jpg"
-		},
-		{
-			"name": "Aston Martin Aramco Cognizant F1 Team",
-			"base": "Silverstone, United Kingdom",
-			"teamCheif": "Mike Krack",
-			"techCheif": "Andrew Green",
-			"chassis": "AMR22",
-			"pu": "Mercedes",
-			"champ": "0",
-			"avatar": "https://www.formula1.com/content/fom-website/en/teams/Aston-Martin/_jcr_content/logo.img.jpg/1645620644658.jpg"
-		},
-		{
-			"name": "Williams Racing",
-			"base": "Grove, United Kingdom",
-			"teamCheif": "Jost Capito",
-			"techCheif": "François-Xavier Demaison",
-			"chassis": "FW44",
-			"pu": "Mercedes",
-			"champ": "9",
-			"avatar": "https://www.formula1.com/content/fom-website/en/teams/Williams/_jcr_content/logo.img.jpg/1590743731407.jpg"
-		}
-	]
-}
+[
+	{
+		"name": "Oracle Red Bull Racing",
+		"base": "Milton Keynes, United Kingdom",
+		"teamCheif": "Christian Horner",
+		"techCheif": "Pierre Waché",
+		"chassis": "RB18",
+		"pu": "Red Bull Powertrains",
+		"champ": "4",
+		"avatar": "https://www.formula1.com/content/fom-website/en/teams/Red-Bull-Racing/_jcr_content/logo.img.jpg/1645620474276.jpg"
+	},
+	{
+		"name": "Scuderia Ferrari",
+		"base": "Maranello, Italy",
+		"teamCheif": "Mattia Binotto",
+		"techCheif": "Enrico Cardile / Enrico Gualtieri",
+		"chassis": "F1-75",
+		"pu": "Ferrari",
+		"champ": "16",
+		"avatar": "https://www.formula1.com/content/fom-website/en/teams/Ferrari/_jcr_content/logo.img.jpg/1521797474166.jpg"
+	},
+	{
+		"name": "Mercedes-AMG Petronas F1 Team",
+		"base": "Brackley, United Kingdom",
+		"teamCheif": "Toto Wolff",
+		"techCheif": "Mike Elliott",
+		"chassis": "W13",
+		"pu": "Mercedes",
+		"champ": "8",
+		"avatar": "https://www.formula1.com/content/fom-website/en/teams/Mercedes/_jcr_content/logo.img.jpg/1582638425211.jpg"
+	},
+	{
+		"name": "McLaren F1 Team",
+		"base": "Woking, United Kingdom",
+		"teamCheif": "Andreas Seidl",
+		"techCheif": "James Key",
+		"chassis": "MCL36",
+		"pu": "Mercedes",
+		"champ": "8",
+		"avatar": "https://www.formula1.com/content/fom-website/en/teams/McLaren/_jcr_content/logo.img.jpg/1644831223911.jpg"
+	},
+	{
+		"name": "Alfa Romeo F1 Team ORLEN",
+		"base": "Hinwil, Switzerland",
+		"teamCheif": "Frédéric Vasseur",
+		"techCheif": "Jan Monchaux",
+		"chassis": "C42",
+		"pu": "Ferrari",
+		"champ": "0",
+		"avatar": "https://www.formula1.com/content/fom-website/en/teams/Alfa-Romeo-Racing/_jcr_content/logo.img.png/1643019381208.png"
+	},
+	{
+		"name": "BWT Alpine F1 Team",
+		"base": "Enstone, United Kingdom",
+		"teamCheif": "Otmar Szafnauer",
+		"techCheif": "Pat Fry",
+		"chassis": "A522",
+		"pu": "Renault",
+		"champ": "2",
+		"avatar": "https://www.formula1.com/content/fom-website/en/teams/Alpine/_jcr_content/logo.img.jpg/1645620884650.jpg"
+	},
+	{
+		"name": "Scuderia AlphaTauri",
+		"base": "Faenza, Italy",
+		"teamCheif": "Franz Tost",
+		"techCheif": "Jody Egginton",
+		"chassis": "AT03",
+		"pu": "Red Bull Powertrains",
+		"champ": "0",
+		"avatar": "https://www.formula1.com/content/fom-website/en/teams/AlphaTauri/_jcr_content/logo.img.jpg/1582650557134.jpg"
+	},
+	{
+		"name": "Haas F1 Team",
+		"base": "Kannapolis, United States",
+		"teamCheif": "Guenther Steiner",
+		"techCheif": "Simone Resta",
+		"chassis": "VF-22",
+		"pu": "Ferrari",
+		"champ": "0",
+		"avatar": "https://www.formula1.com/content/fom-website/en/teams/Haas-F1-Team/_jcr_content/logo.img.jpg/1646210673011.jpg"
+	},
+	{
+		"name": "Aston Martin Aramco Cognizant F1 Team",
+		"base": "Silverstone, United Kingdom",
+		"teamCheif": "Mike Krack",
+		"techCheif": "Andrew Green",
+		"chassis": "AMR22",
+		"pu": "Mercedes",
+		"champ": "0",
+		"avatar": "https://www.formula1.com/content/fom-website/en/teams/Aston-Martin/_jcr_content/logo.img.jpg/1645620644658.jpg"
+	},
+	{
+		"name": "Williams Racing",
+		"base": "Grove, United Kingdom",
+		"teamCheif": "Jost Capito",
+		"techCheif": "François-Xavier Demaison",
+		"chassis": "FW44",
+		"pu": "Mercedes",
+		"champ": "9",
+		"avatar": "https://www.formula1.com/content/fom-website/en/teams/Williams/_jcr_content/logo.img.jpg/1590743731407.jpg"
+	}
+]

@@ -1,180 +1,178 @@
-{
-	"tracks": [
-		{
-			"name": "Bahrain International Circuit",
-			"laps": "57",
-			"length": "5.412",
-			"distance": "308.238",
-			"record": "1:31.447",
-			"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Bahrain_Circuit.png.transform/8col/image.png"
-		},
-		{
-			"name": "Jeddah Corniche Circuit",
-			"laps": "50",
-			"length": "6.174",
-			"distance": "308.45",
-			"record": "1:30.374",
-			"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Saudi_Arabia_Circuit.png.transform/8col/image.png"
-		},
-		{
-			"name": "Albert Park Circuit",
-			"laps": "58",
-			"length": "5.278",
-			"distance": "306.124",
-			"record": "1:20.260",
-			"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Australia_Circuit.png.transform/8col/image.png"
-		},
-		{
-			"name": "Autodromo Enzo e Dino Ferrari",
-			"laps": "63",
-			"length": "4.909",
-			"distance": "309.049",
-			"record": "1:15.484",
-			"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Emilia_Romagna_Circuit.png.transform/8col/image.png"
-		},
-		{
-			"name": "Miami International Autodrome",
-			"laps": "57",
-			"length": "5.412",
-			"distance": "308.326",
-			"record": "1:31.361",
-			"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Miami_Circuit.png.transform/8col/image.png"
-		},
-		{
-			"name": "Circuit de Barcelona-Catalunya",
-			"laps": "66",
-			"length": "4.675",
-			"distance": "308.424",
-			"record": "1:18.149",
-			"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Spain_Circuit.png.transform/8col/image.png"
-		},
-		{
-			"name": "Circuit de Monaco",
-			"laps": "78",
-			"length": "3.337",
-			"distance": "260.286",
-			"record": "1:12.909",
-			"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Monoco_Circuit.png.transform/8col/image.png"
-		},
-		{
-			"name": "Baku City Circuit",
-			"laps": "51",
-			"length": "6.003",
-			"distance": "306.049",
-			"record": "1:43.009",
-			"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Baku_Circuit.png.transform/8col/image.png"
-		},
-		{
-			"name": "Circuit Gilles-Villeneuve",
-			"laps": "70",
-			"length": "4.361",
-			"distance": "305.27",
-			"record": "1:13.078",
-			"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Canada_Circuit.png.transform/8col/image.png"
-		},
-		{
-			"name": "Silverstone Circuit",
-			"laps": "52",
-			"length": "5.891",
-			"distance": "306.198",
-			"record": "1:27.097",
-			"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Great_Britain_Circuit.png.transform/8col/image.png"
-		},
-		{
-			"name": "Red Bull Ring",
-			"laps": "71",
-			"length": "4.318",
-			"distance": "306.452",
-			"record": "1:05.619",
-			"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Austria_Circuit.png.transform/8col/image.png"
-		},
-		{
-			"name": "Circuit Paul Ricard",
-			"laps": "53",
-			"length": "5.842",
-			"distance": "309.69",
-			"record": "1.32.740",
-			"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/France_Circuit.png.transform/8col/image.png"
-		},
-		{
-			"name": "Hungaroring",
-			"laps": "70",
-			"length": "7.381",
-			"distance": "306.63",
-			"record": "1:16.627",
-			"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Hungary_Circuit.png.transform/8col/image.png"
-		},
-		{
-			"name": "Circuit de Spa-Francorchamps",
-			"laps": "44",
-			"length": "7.004",
-			"distance": "308.052",
-			"record": "1:46.286",
-			"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Belgium_Circuit.png.transform/8col/image.png"
-		},
-		{
-			"name": "Circuit Zandvoort",
-			"laps": "72",
-			"length": "4.259",
-			"distance": "306.587",
-			"record": "1:11.097",
-			"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Netherlands_Circuit.png.transform/8col/image.png"
-		},
-		{
-			"name": "Autodromo Nazionale Monza",
-			"laps": "53",
-			"length": "5.793",
-			"distance": "306.72",
-			"record": "1:21.046",
-			"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Italy_Circuit.png.transform/8col/image.png"
-		},
-		{
-			"name": "Marina Bay Street Circuit",
-			"laps": "61",
-			"length": "5.063",
-			"distance": "308.706",
-			"record": "1:41.905",
-			"map": "https://www.formula1.com/content/dam/fom-website/manual/races/Singapore/singapore_track.png.transform/8col/image.png"
-		},
-		{
-			"name": "Suzuka International Racing Course",
-			"laps": "53",
-			"length": "5.807",
-			"distance": "307.471",
-			"record": "1:30.983",
-			"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Japan_Circuit.png.transform/8col/image.png"
-		},
-		{
-			"name": "Circuit of The Americas",
-			"laps": "56",
-			"length": "5.513",
-			"distance": "308.405",
-			"record": "1:36.169",
-			"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/USA_Circuit.png.transform/8col/image.png"
-		},
-		{
-			"name": "Autódromo Hermanos Rodríguez",
-			"laps": "71",
-			"length": "4.304",
-			"distance": "305.354",
-			"record": "1:17.774",
-			"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Mexico_Circuit.png.transform/8col/image.png"
-		},
-		{
-			"name": "Autódromo José Carlos Pace",
-			"laps": "71",
-			"length": "4.309",
-			"distance": "305.879",
-			"record": "",
-			"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Brazil_Circuit.png.transform/8col/image.png"
-		},
-		{
-			"name": "Yas Marina Circuit",
-			"laps": "58",
-			"length": "5.281",
-			"distance": "306.183",
-			"record": "1:26.103",
-			"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Abu_Dhabi_Circuit.png.transform/8col/image.png"
-		}
-	]
-}
+[
+	{
+		"name": "Bahrain International Circuit",
+		"laps": "57",
+		"length": "5.412",
+		"distance": "308.238",
+		"record": "1:31.447",
+		"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Bahrain_Circuit.png.transform/8col/image.png"
+	},
+	{
+		"name": "Jeddah Corniche Circuit",
+		"laps": "50",
+		"length": "6.174",
+		"distance": "308.45",
+		"record": "1:30.374",
+		"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Saudi_Arabia_Circuit.png.transform/8col/image.png"
+	},
+	{
+		"name": "Albert Park Circuit",
+		"laps": "58",
+		"length": "5.278",
+		"distance": "306.124",
+		"record": "1:20.260",
+		"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Australia_Circuit.png.transform/8col/image.png"
+	},
+	{
+		"name": "Autodromo Enzo e Dino Ferrari",
+		"laps": "63",
+		"length": "4.909",
+		"distance": "309.049",
+		"record": "1:15.484",
+		"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Emilia_Romagna_Circuit.png.transform/8col/image.png"
+	},
+	{
+		"name": "Miami International Autodrome",
+		"laps": "57",
+		"length": "5.412",
+		"distance": "308.326",
+		"record": "1:31.361",
+		"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Miami_Circuit.png.transform/8col/image.png"
+	},
+	{
+		"name": "Circuit de Barcelona-Catalunya",
+		"laps": "66",
+		"length": "4.675",
+		"distance": "308.424",
+		"record": "1:18.149",
+		"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Spain_Circuit.png.transform/8col/image.png"
+	},
+	{
+		"name": "Circuit de Monaco",
+		"laps": "78",
+		"length": "3.337",
+		"distance": "260.286",
+		"record": "1:12.909",
+		"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Monoco_Circuit.png.transform/8col/image.png"
+	},
+	{
+		"name": "Baku City Circuit",
+		"laps": "51",
+		"length": "6.003",
+		"distance": "306.049",
+		"record": "1:43.009",
+		"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Baku_Circuit.png.transform/8col/image.png"
+	},
+	{
+		"name": "Circuit Gilles-Villeneuve",
+		"laps": "70",
+		"length": "4.361",
+		"distance": "305.27",
+		"record": "1:13.078",
+		"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Canada_Circuit.png.transform/8col/image.png"
+	},
+	{
+		"name": "Silverstone Circuit",
+		"laps": "52",
+		"length": "5.891",
+		"distance": "306.198",
+		"record": "1:27.097",
+		"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Great_Britain_Circuit.png.transform/8col/image.png"
+	},
+	{
+		"name": "Red Bull Ring",
+		"laps": "71",
+		"length": "4.318",
+		"distance": "306.452",
+		"record": "1:05.619",
+		"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Austria_Circuit.png.transform/8col/image.png"
+	},
+	{
+		"name": "Circuit Paul Ricard",
+		"laps": "53",
+		"length": "5.842",
+		"distance": "309.69",
+		"record": "1.32.740",
+		"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/France_Circuit.png.transform/8col/image.png"
+	},
+	{
+		"name": "Hungaroring",
+		"laps": "70",
+		"length": "7.381",
+		"distance": "306.63",
+		"record": "1:16.627",
+		"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Hungary_Circuit.png.transform/8col/image.png"
+	},
+	{
+		"name": "Circuit de Spa-Francorchamps",
+		"laps": "44",
+		"length": "7.004",
+		"distance": "308.052",
+		"record": "1:46.286",
+		"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Belgium_Circuit.png.transform/8col/image.png"
+	},
+	{
+		"name": "Circuit Zandvoort",
+		"laps": "72",
+		"length": "4.259",
+		"distance": "306.587",
+		"record": "1:11.097",
+		"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Netherlands_Circuit.png.transform/8col/image.png"
+	},
+	{
+		"name": "Autodromo Nazionale Monza",
+		"laps": "53",
+		"length": "5.793",
+		"distance": "306.72",
+		"record": "1:21.046",
+		"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Italy_Circuit.png.transform/8col/image.png"
+	},
+	{
+		"name": "Marina Bay Street Circuit",
+		"laps": "61",
+		"length": "5.063",
+		"distance": "308.706",
+		"record": "1:41.905",
+		"map": "https://www.formula1.com/content/dam/fom-website/manual/races/Singapore/singapore_track.png.transform/8col/image.png"
+	},
+	{
+		"name": "Suzuka International Racing Course",
+		"laps": "53",
+		"length": "5.807",
+		"distance": "307.471",
+		"record": "1:30.983",
+		"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Japan_Circuit.png.transform/8col/image.png"
+	},
+	{
+		"name": "Circuit of The Americas",
+		"laps": "56",
+		"length": "5.513",
+		"distance": "308.405",
+		"record": "1:36.169",
+		"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/USA_Circuit.png.transform/8col/image.png"
+	},
+	{
+		"name": "Autódromo Hermanos Rodríguez",
+		"laps": "71",
+		"length": "4.304",
+		"distance": "305.354",
+		"record": "1:17.774",
+		"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Mexico_Circuit.png.transform/8col/image.png"
+	},
+	{
+		"name": "Autódromo José Carlos Pace",
+		"laps": "71",
+		"length": "4.309",
+		"distance": "305.879",
+		"record": "",
+		"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Brazil_Circuit.png.transform/8col/image.png"
+	},
+	{
+		"name": "Yas Marina Circuit",
+		"laps": "58",
+		"length": "5.281",
+		"distance": "306.183",
+		"record": "1:26.103",
+		"map": "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Abu_Dhabi_Circuit.png.transform/8col/image.png"
+	}	
+]

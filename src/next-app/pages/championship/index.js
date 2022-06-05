@@ -15,6 +15,7 @@ export default function ChampionshipPage() {
 			<main>
 				<div>
 					<a href='/championship/seasons'>nothing</a>
+					<a href='/championship/teams'>something</a>
 				</div>
 			</main>
 			<Footer />
