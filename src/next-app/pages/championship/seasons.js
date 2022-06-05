@@ -4,7 +4,7 @@ import Head from 'next/head';
 import styles from '../../styles/pages/Championship.module.css';
 import { useState } from 'react';
 import seasons from './seasons.json';
-import { TableHead, TableRow, TableCell } from '@mui/material';
+import { TableHead, TableRow, TableCell, Table, TableBody } from '@mui/material';
 import Link from 'next/link';
 
 export default function Seasons() {
@@ -13,60 +13,72 @@ export default function Seasons() {
 
 	const table = seasons.map((season) => {
 		return [
-			<TableHead>
-				<TableRow>
-					<TableCell>Circuit</TableCell>
-					<TableCell>Driver</TableCell>
-					<TableCell>Team</TableCell>
-					<TableCell>Laps</TableCell>
-					<TableCell>Time</TableCell>
-				</TableRow>
-				{season.races.map((race) => {
-					return (
-						<TableRow>
-							<TableCell>{race.circuit}</TableCell>
-							<TableCell>{race.driver}</TableCell>
-							<TableCell>{race.team}</TableCell>
-							<TableCell>{race.laps}</TableCell>
-							<TableCell>{race.time}</TableCell>
-						</TableRow>
-					);
-				})}
-			</TableHead>,
-			<TableHead>
-				<TableRow>
-					<TableCell>Position</TableCell>
-					<TableCell>Driver</TableCell>
-					<TableCell>Team</TableCell>
-					<TableCell>Points</TableCell>
-				</TableRow>
-				{season.drivers.map((driver) => {
-					return (
-						<TableRow>
-							<TableCell>{driver.post}</TableCell>
-							<TableCell>{driver.driver}</TableCell>
-							<TableCell>{driver.team}</TableCell>
-							<TableCell>{driver.points}</TableCell>
-						</TableRow>
-					);
-				})}
-			</TableHead>,
-			<TableHead>
-				<TableRow>
-					<TableCell>Position</TableCell>
-					<TableCell>Team</TableCell>
-					<TableCell>Points</TableCell>
-				</TableRow>
-				{season.teams.map((team) => {
-					return (
-						<TableRow>
-							<TableCell>{team.post}</TableCell>
-							<TableCell>{team.team}</TableCell>
-							<TableCell>{team.points}</TableCell>
-						</TableRow>
-					);
-				})}
-			</TableHead>,
+			<Table>
+				<TableHead>
+					<TableRow>
+						<TableCell>Circuit</TableCell>
+						<TableCell>Driver</TableCell>
+						<TableCell>Team</TableCell>
+						<TableCell>Laps</TableCell>
+						<TableCell>Time</TableCell>
+					</TableRow>
+				</TableHead>
+				<TableBody>
+					{season.races.map((race) => {
+						return (
+							<TableRow key={race.circuit}>
+								<TableCell>{race.circuit}</TableCell>
+								<TableCell>{race.driver}</TableCell>
+								<TableCell>{race.team}</TableCell>
+								<TableCell>{race.laps}</TableCell>
+								<TableCell>{race.time}</TableCell>
+							</TableRow>
+						);
+					})}
+				</TableBody>
+			</Table>,
+			<Table>
+				<TableHead>
+					<TableRow>
+						<TableCell>Position</TableCell>
+						<TableCell>Driver</TableCell>
+						<TableCell>Team</TableCell>
+						<TableCell>Points</TableCell>
+					</TableRow>
+				</TableHead>
+				<TableBody>
+					{season.drivers.map((driver) => {
+						return (
+							<TableRow key={driver.post}>
+								<TableCell>{driver.post}</TableCell>
+								<TableCell>{driver.driver}</TableCell>
+								<TableCell>{driver.team}</TableCell>
+								<TableCell>{driver.points}</TableCell>
+							</TableRow>
+						);
+					})}
+				</TableBody>
+			</Table>,
+			<Table>
+				<TableHead>
+					<TableRow>
+						<TableCell>Position</TableCell>
+						<TableCell>Team</TableCell>
+						<TableCell>Points</TableCell>
+					</TableRow>
+				</TableHead>
+				<TableBody>
+					{season.teams.map((team) => {
+						return (
+							<TableRow>
+								<TableCell>{team.post}</TableCell>
+								<TableCell>{team.team}</TableCell>
+								<TableCell>{team.points}</TableCell>
+							</TableRow>
+						);
+					})}
+				</TableBody>
+			</Table>,
 		];
 	});
 
