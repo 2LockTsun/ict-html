@@ -12,11 +12,10 @@ export default function GamePage() {
         <div>
             <Header>Game - My favourite sports</Header>
             <NavigationBar />
-            <Content components={['Codemaster', 'F1 22', 'F1 2021', 'F1 2020']}>
+            <Content components={['Codemaster', 'F1 22', 'F1 2021']}>
                 <CodeMasterPage />
                 <F122Page />
                 <F12021Page />
-                <F12020Page />
             </Content>
             <Footer />
         </div>

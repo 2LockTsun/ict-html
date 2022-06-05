@@ -7,7 +7,9 @@ export default function ChampionshipPage() {
         <div>
             <Header>Championship - My favourite sports</Header>
             <NavigationBar />
-            
+            <main>
+                
+            </main>
             <Footer />
         </div>
     )

@@ -3,6 +3,7 @@ import Footer from '../../components/footer';
 import Content from "../../components/content";
 import DeveloperPage from './developer';
 import FormulaOnePage from "./formulaOne";
+import Header from "../../components/Header";
 
 export default function About() {
     return (
