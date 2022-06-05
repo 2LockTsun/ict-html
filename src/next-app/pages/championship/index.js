@@ -1,16 +1,18 @@
-import NavigationBar from "../../components/navigationBar";
-import Footer from "../../components/footer";
-import Content from "../../components/content";
+import NavigationBar from '../../components/navigationBar';
+import Footer from '../../components/footer';
+import Content from '../../components/content';
 
 export default function ChampionshipPage() {
-    return(
-        <div>
-            <Header>Championship - My favourite sports</Header>
-            <NavigationBar />
-            <main>
-                
-            </main>
-            <Footer />
-        </div>
-    )
+	return (
+		<div>
+			<Header>Championship - My favourite sports</Header>
+			<NavigationBar />
+			<main>
+				<div>
+					<a>nothing</a>
+				</div>
+			</main>
+			<Footer />
+		</div>
+	);
 }
