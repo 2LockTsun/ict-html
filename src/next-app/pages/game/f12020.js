@@ -8,8 +8,8 @@ export default function F12020Page() {
 			</div>
 			<div className={styles.content}>
                 <iframe
-                    width="560"
-                    height="315"
+                    width="1120"
+                    height="630"
                     src="https://www.youtube.com/embed/lfbq4qkoenY"
                     title="YouTube video player"
                     frameborder="0"

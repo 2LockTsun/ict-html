@@ -15,6 +15,7 @@
 }
 
 .Nav a {
+  display: flex;
   text-align: center;
   color: #fff;
   margin: 1em;
@@ -24,6 +25,38 @@
 
 .Nav a:focus,
 .Nav a:active {
+  border-bottom: 2px solid lightskyblue;
+}
+
+.vertContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.vertNav {
+  display: flex;
+  width: 15em;
+  background-color: #38383F;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.vertNav a {
+  display: flex;
+  text-align: center;
+  color: #fff;
+  margin: 1em;
+  padding: 0.5em;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertNav a:focus,
+.vertNav a:active {
   border-bottom: 2px solid lightskyblue;
 }
 
@@ -62,4 +95,102 @@
   justify-content: center;
   min-height: 81.85vh;
   padding: 3em;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 81.85vh;
+  padding: 3em;
+  flex-direction: column;
+}
+
+.driver {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 3em;
+  flex-direction: column;
+}
+
+.teamAvatar {
+  height: 15em;
+}
+
+.teamTable {
+  min-width: 50em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.teamTableRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.teamTableHead {
+  display: flex;
+  padding-right: 2em;
+  min-width: 20em;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+
+.teamTableCell {
+  display: flex;
+  padding-left: 2em;
+  min-width: 20em;
+  justify-content: flex-start;
+}
+
+.track {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 81.85vh;
+  padding: 3em;
+  flex-direction: column;
+}
+
+.trackRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.trackCell {
+  display: flex;
+  margin: 1em;
+  justify-content: flex-start;
+  border-right: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+  border-radius: 1em;
+  min-width: 20em;
+  min-height: 5em;
+  flex-direction: column;
+}
+
+.trackItem {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1em;
+  padding-left: 2em;
+  font-weight: 500;
+  color: black;
+}
+
+.trackData {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 3em;
+  font-weight: bold;
+  padding-right: 0.5em;
+  width: 100%;
 }

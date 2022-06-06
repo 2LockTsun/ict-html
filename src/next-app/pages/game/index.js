@@ -16,7 +16,7 @@ export default function GamePage() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<NavigationBar />
-			<Content components={['Codemaster', 'F1 22', 'F1 2021', 'F1 2020']}>
+			<Content components={['Codemasters', 'F1 22', 'F1 2021', 'F1 2020']}>
 				<CodeMasterPage />
 				<F122Page />
 				<F12021Page />
