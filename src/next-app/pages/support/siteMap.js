@@ -21,9 +21,26 @@ export default function SiteMapPage() {
 				<Link href={'/championship'}>
 					<a>Championship</a>
 				</Link>
-				<li>Teams</li>
-				<li>Drivers</li>
-				<li>Tracks</li>
+				<li>
+					<Link href={'/championship/seasons'}>
+						<a>Seasons</a>
+					</Link>
+				</li>
+				<li>
+					<Link href={'/championship/drivers'}>
+						<a>Drivers</a>
+					</Link>
+				</li>
+				<li>
+					<Link href={'/championship/tracks'}>
+						<a>Tracks</a>
+					</Link>
+				</li>
+				<li>
+					<Link href={'/championship/teams'}>
+						<a>Teams</a>
+					</Link>
+				</li>
 				<div className={styles.blank} />
 				<Link href={'/game'}>
 					<a>Game</a>
@@ -38,6 +55,7 @@ export default function SiteMapPage() {
 				</Link>
 				<li>Contact Us</li>
 				<li>Site Map</li>
+				<li>Credit</li>
 			</div>
 		</div>
 	);
