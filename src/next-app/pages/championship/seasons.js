@@ -4,7 +4,13 @@ import Head from 'next/head';
 import styles from '../../styles/pages/Championship.module.css';
 import { useState } from 'react';
 import seasons from './seasons.json';
-import { TableHead, TableRow, TableCell, Table, TableBody } from '@mui/material';
+import {
+	TableHead,
+	TableRow,
+	TableCell,
+	Table,
+	TableBody,
+} from '@mui/material';
 import Link from 'next/link';
 
 export default function Seasons() {

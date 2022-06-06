@@ -1,7 +1,7 @@
 import NavigationBar from '../../components/navigationBar';
 import Footer from '../../components/footer';
 import Head from 'next/head';
-import styles from '../../styles/pages/Championship.module.css'
+import styles from '../../styles/pages/Championship.module.css';
 
 export default function ChampionshipPage() {
 	return (

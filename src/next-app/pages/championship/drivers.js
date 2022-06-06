@@ -2,13 +2,13 @@ import NavigationBar from '../../components/navigationBar';
 import Footer from '../../components/footer';
 import drivers from './drivers.json';
 import Head from 'next/head';
-import styles from '../../styles/pages/Championship.module.css'
+import styles from '../../styles/pages/Championship.module.css';
 import Link from 'next/link';
 import { useState } from 'react';
 
 export default function Drivers() {
-	const [ Driver, setDriver ] = useState(0);
-	const driver = drivers[Driver]
+	const [Driver, setDriver] = useState(0);
+	const driver = drivers[Driver];
 	return (
 		<div>
 			<Head>
@@ -19,13 +19,21 @@ export default function Drivers() {
 			<NavigationBar />
 			<div className={styles.vertContainer}>
 				<div className={styles.vertNav}>
-					{drivers.map(driver => {return(
-						<Link href={''}><a onClick={() => setDriver(drivers.indexOf(driver))}>{driver.name}</a></Link>
-					)})}
+					{drivers.map((driver) => {
+						return (
+							<Link href={''}>
+								<a onClick={() => setDriver(drivers.indexOf(driver))}>
+									{driver.name}
+								</a>
+							</Link>
+						);
+					})}
 				</div>
 				<div className={styles.driver}>
 					<img src={driver.avatar} className={styles.teamAvatar} />
-					<h1>{driver.no}{" "}{driver.name}</h1>
+					<h1>
+						{driver.no} {driver.name}
+					</h1>
 					<div className={styles.teamTableRow}>
 						<div className={styles.teamTableHead}>Team</div>
 						<div className={styles.teamTableCell}>{driver.team}</div>
@@ -43,7 +51,9 @@ export default function Drivers() {
 						<div className={styles.teamTableCell}>{driver.birthplace}</div>
 					</div>
 					<div className={styles.teamTableRow}>
-						<div className={styles.teamTableHead}>Number of Driver Championship</div>
+						<div className={styles.teamTableHead}>
+							Number of Driver Championship
+						</div>
 						<div className={styles.teamTableCell}>{driver.champ}</div>
 					</div>
 				</div>

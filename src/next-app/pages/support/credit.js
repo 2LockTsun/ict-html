@@ -1,5 +1,11 @@
 import styles from '../../styles/pages/Support.module.css';
-import { TableHead, TableRow, TableCell, Table, TableBody } from '@mui/material';
+import {
+	TableHead,
+	TableRow,
+	TableCell,
+	Table,
+	TableBody,
+} from '@mui/material';
 
 export default function CreditPage() {
 	return (
